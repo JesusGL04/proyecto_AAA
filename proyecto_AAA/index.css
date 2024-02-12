@@ -1,0 +1,1225 @@
+:root {
+    --background-color: #f6f6f6;
+    --link-color-classic-black: black;
+    --menu-background: rgb(255 255 255);
+    --menu-border: 1px solid; 
+    --rating-color: #6B5600;
+    --footer-background: #141414;
+    --red-color-base: #FF7471;
+    --red-color-price: #AB0101;
+    --grey-color-base: #dee2e6;
+    --white-color-classic: white;
+    --type-product: #545454
+  }
+
+  h1{
+    text-align: center;
+    color: var(--background-color);
+
+  }
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+svg{
+    width: 200px;
+}
+
+audio{
+    margin-top: 25px;
+    width: 250px;
+}
+
+video{
+    height: 120px;
+    margin-top: 20px;
+    background-color: var(--background-color);
+}
+
+header {
+    background-image: url("imagenes/imagen_carrusel.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1000px;
+    padding-top: 25px;
+}
+
+select{
+    font-size: 17px;
+    border: none;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.mainarea{
+    color: var(--red-color-price);
+    margin-left: 2%;
+    font-weight: 700;
+    position: fixed;
+}
+
+.signin h2{
+    display: none;
+}
+
+.menu h2{
+display: none;
+}
+
+.menuizquierda div{
+    height: 100%;
+}
+
+.iconosdestacados h2{
+    display: none;
+}
+
+.buscador h3{
+    display: none;
+}
+
+.titulocarrusel h2{
+    margin: 0;
+}
+
+.tiporopa h2{
+    display: none;
+}
+
+.featured h3{
+    display: none;
+}
+
+.featured h2{
+    display: none;
+}
+
+.promocion h2{
+    display: none;
+}
+
+.promocion2 h2{
+    display: none;
+}
+
+.marco4 h2{
+    display: none;
+}
+
+.navegador {
+    background-color: var(--white-color-classic);
+    width: 70%;
+    margin: auto;
+}
+
+.opciones ul{
+    margin: auto;
+    margin-left: 0;
+    display: block;
+    text-align: left;
+}
+
+.opciones li{
+    margin: 5px;
+    display: inline-block;
+    padding: 7px;
+    font-weight: 600;
+}
+
+.iconosdestacados{
+    margin: auto;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconosdestacados article{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.midinero{
+font-weight: 700;
+}
+
+.signin{
+    background-color: var(--footer-background);
+    display: flex;
+}
+
+.mensajebienve {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: var(--white-color-classic);
+    width: 100%;
+    height: 58px;
+    margin-left: 15px;
+    
+}
+
+.idioma{
+    display: flex;
+    align-items: center;
+    color: var(--white-color-classic);
+    padding-right: 15px;
+}
+
+.mensajebienve a{
+    color: var(--white-color-classic);
+    margin-left: 6px;
+    text-decoration: underline;
+}
+
+.menu {
+    background-color: var(--white-color-classic);
+    display: flex;
+}
+
+.menuizquierda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 142px;
+    width: 300px;
+    border-right: 1px solid var(--grey-color-base);
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.menuderecha {
+    flex: auto;
+    height: 141px;
+    width: 100%;
+}
+
+.opciones {
+    text-align: left;
+    align-content: center;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid var(--grey-color-base);
+}
+
+.buscador {
+    height: 40%;
+    width: 100%;
+    display: flex;
+}
+
+.buscador input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin-left: 10px;
+    padding: 0;
+}
+
+.buscador a{
+    margin: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 70%;
+    border: 1px solid;
+    width: 140px;
+    background-color: var(--red-color-price);
+    color: var(--white-color-classic);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lupa{
+    height: 60%;
+    margin: auto;
+    margin-left: 10px;
+}
+
+.titulocarrusel{
+    color: var(--white-color-classic);
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.theclothing{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Teko;
+}
+
+
+
+.champion{
+    font-size: 120px;
+    font-weight: 700
+}
+
+.titulocarrusel a{
+    margin-top: 15px;
+    width: 150px;
+    height: 45px;
+    color: var(--link-color-classic-black);
+    background-color: var(--white-color-classic);
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tiporopa{
+    color: var(--grey-color-base);
+    display: flex;
+    justify-content: center;     
+    height: 100%;
+    padding: 15px;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.calzado{
+    background-image: url("imagenes/calzado.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 320px;
+    width: 590px;
+}
+
+.selectrange{
+    text-decoration: underline;
+}
+
+.primerafrase{
+    font-family: Teko;
+}
+
+.segundafrase{
+    font-family: Teko;
+    margin-bottom: 70px;
+    margin-top: -20px;
+}
+
+
+.calzado .contenidotiporopa{
+    margin-top: 30px;
+    margin-left: 60%;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.calzado .promotiporopa{
+    color: var(--grey-color-base);
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.calzado .primerafrase{
+    color: white;
+    margin-top: 5px;
+    font-size: 40px;
+}
+
+.calzado .segundafrase{
+    font-size: 40px;
+    font-weight: 600;
+    color: yellow;
+}
+
+.calzado .selectrange{
+    color: yellow;
+}
+
+.deporte .contenidotiporopa{
+    margin-top: 30px;
+    margin-left: 60%;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.deporte .promotiporopa{
+    color: var(--grey-color-base);
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.deporte .primerafrase{
+    color: var(--link-color-classic-black);
+    margin-top: 5px;
+    font-size: 40px;
+}
+
+.deporte .segundafrase{
+    color: var(--white-color-classic);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.deporte .selectrange{
+    color: var(--link-color-classic-black);
+}
+
+.casual .contenidotiporopa{
+    margin-top: 30px;
+    margin-left: 60%;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.casual .promotiporopa{
+    color: var(--grey-color-base);
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.casual .primerafrase{
+    color: var(--white-color-classic);
+    margin-top: 5px;
+    font-size: 40px;
+}
+
+.casual .segundafrase{
+    color: rgb(103 255 166);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.casual .selectrange{
+    color: rgb(103 255 166);
+}
+
+
+.casual{
+    background-image: url("imagenes/seccioncasual.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 320px;
+    width: 590px;
+}
+
+.deporte{
+    background-image: url("imagenes/seccionsport.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 320px;
+    width: 590px;
+}
+
+.featured{
+    margin-bottom: 80px;
+}
+
+.productos{
+    margin: auto;
+    width: 1240px;
+  display: grid;
+  gap: 30px 30px;
+  grid-template: "producto1 producto2 producto3 producto4" 1fr "producto5 producto6 producto7 producto8" 1fr / 1fr 1fr 1fr 1fr;
+  grid-auto-flow: row;
+  text-align: center;
+}
+
+.masinfo{
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    background-color: var(--white-color-classic);
+    border: 1px solid;
+    display: none;
+    opacity: 0; /* Inicialmente oculto */
+    transform: scale(0.5); /* Inicialmente pequeño */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Transiciones suaves */
+}
+
+.masinfo:hover{
+    opacity: 1; /* Mostrar cuando se hace hover o focus */
+      transform: scale(1); /* Aumentar tamaño al mostrar */
+}
+
+.opcionespro{
+    width: 40px;
+    height: 40px;
+    border: solid 1px;
+    padding: 5px;
+}
+
+.opcionespro :hover{
+    filter: invert(100%);
+}
+
+.tipoproducto{
+    color: var(--type-product);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: small;
+}
+
+
+.precioproducto{
+    margin-top: 20px;
+    color: var(--red-color-price);
+    font-weight: 600;
+}
+
+.addcart{
+    margin-top: 35px;
+    height: 40px;
+    color: var(--white-color-classic);
+    background-color: var(--link-color-classic-black);
+    place-content: center center;
+    align-items: center;
+    display: none;
+}
+
+.addcart div{
+    margin-right: 10px;
+    align-items: center;
+    display: flex;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 5px;
+}
+
+.addcart:hover{
+    transition: background-color 1s ease;
+    background-color: #ef3636;
+}
+
+.descripcionproducto:hover .addcart{
+    display: flex ;
+}
+
+.producto1 { 
+    grid-area: producto1;
+    font-weight: 600;
+    position: relative;
+    border: solid 1px var(--grey-color-base);
+    margin: auto;
+    height: 450px; }
+
+.producto2 { 
+    grid-area: producto2;
+    font-weight: 600;
+    border: solid 1px var(--grey-color-base);
+    margin: auto;
+    height: 450px; }
+
+.producto3 { 
+    grid-area: producto3;
+    font-weight: 600;
+    border: solid 1px var(--grey-color-base);
+    margin: auto;
+    height: 450px; }
+
+.producto4 { 
+    grid-area: producto4;
+    font-weight: 600;
+    border: solid 1px var(--grey-color-base);
+    margin: auto;
+    height: 450px; }
+
+.producto5 {
+    grid-area: producto5;
+    font-weight: 600;
+    border: solid 1px var(--grey-color-base);
+    margin: auto;
+    height: 450px; }
+
+.producto6 { 
+    grid-area: producto6;
+    font-weight: 600;
+    border: solid 1px var(--grey-color-base);
+    margin: auto;
+    height: 450px; }
+
+.producto7 { 
+    grid-area: producto7;
+    font-weight: 600;
+    border: solid 1px var(--grey-color-base);
+    margin: auto;
+    height: 450px; }
+
+.producto8 { 
+    grid-area: producto8;
+    font-weight: 600;
+    border: solid 1px var(--grey-color-base);
+    margin: auto;
+    height: 450px; }
+
+.tituloproductos{
+    text-align: center;
+    margin: auto;
+}
+
+.tituloproductos ol{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+.tituloproductos li{
+    display: list-item;
+    font-weight: 500;
+}
+
+.tituloproductos a{
+    letter-spacing: 1px;
+    font-weight:600;
+    font-size: 45px;
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: Teko;
+}
+
+.tituloproductos li :hover{
+    color: var(--red-color-base);
+    transition: 1s;
+}
+
+.imagenproducto{
+    width: 280px;
+    height: 60%;
+    position: relative;
+    display: inline-block;
+}
+
+.imagenproducto:hover .masinfo{
+   display: flex;
+   
+}
+
+.promocion{
+    text-align: center;
+    background-color: var(--red-color-price);
+    width: 95%;
+    margin: auto;
+}
+
+.textopromocion{
+    font-family: Teko;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: auto;
+    color: var(--white-color-classic);
+    font-size: 30px;
+}
+
+.textopromocion span{
+    font-size: 33px ;
+    font-family: Teko;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 700;
+}
+
+
+.seccioncategorias{
+margin-top: 80px;
+margin-bottom: 80px;
+}
+
+.seccioncategorias h3{
+    display: none;
+}
+
+.shopbycategories{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    font-family: Teko;
+}
+
+.categorias {
+    margin: auto;
+    height: 780px;
+    max-width: 1200px;
+    position: relative;
+    display: grid; 
+    grid-template: "gym gym gym zapatillas" 1fr "gym gym gym zapatillas" 1fr "lifestyle lifestyle atletismo atletismo" 1fr "lifestyle lifestyle atletismo atletismo" 1fr / 1fr 1fr 0.6fr 1.4fr; 
+    gap: 10px 10px; 
+  }
+
+  .gym { 
+    background-image: url("imagenes/gym1.jpg");
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: gym;
+    height: 370px;
+    margin: 10px;
+    position: relative;
+}
+
+  .zapatillas { 
+    background-image: url("imagenes/calzadodeportivo.jpg");
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: zapatillas; 
+    height: 370px;
+    margin: 10px;
+    position: relative;
+}
+
+  .atletismo { 
+    background-image: url("imagenes/atletismo.jpg");
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: atletismo; 
+    height: 370px;
+    margin: 10px;
+    position: relative;
+}
+
+  .lifestyle { 
+    background-image: url("imagenes/goodlook.jpg");
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: lifestyle; 
+    height: 370px;
+    margin: 10px;
+    position: relative;
+}
+
+.cantidadproductos{
+    height: 80px;
+    width: 230px;
+    background-color: var(--white-color-classic);
+    position: absolute;
+    top: 255px;
+    left: 30px;
+}
+
+.cantidadproductos :hover{
+    background-color: var(--red-color-base);
+    color: var(--white-color-classic);
+    transition: 1s;
+}
+
+.categoria{
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.cantidad{
+    margin: 0;
+    padding: 7px;
+    background-color: var(--link-color-classic-black);
+    color: var(--white-color-classic);
+    text-align: center;
+}
+
+.promocion2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--red-color-price);
+    width: 95%;
+    margin: auto;
+}
+
+.contenidopromocion{
+    margin: 25px 10px;
+    display: flex;
+    height: 90px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tipopromocion{
+    color: var(--white-color-classic);
+    font-size: 20px;
+    font-family: Teko;
+}
+
+.promoinfo{
+margin-left: 12px ;
+}
+
+.descripcionpromocion{
+    font-size: 12px;
+    color: var(--white-color-classic);
+    margin-top: 15px;
+}
+
+.iconopromocion{
+    width: 90px;
+    height: 90px;
+}
+
+.listadoproductos{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.recentproducts{
+    height: 600px;
+    width: 400px;
+    margin-top: -30px;
+}
+
+.recentproducts h2{
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    font-family: Teko
+}
+
+.onsale{
+    height: 600px;
+    width: 400px;
+    margin-top: -30px;
+}
+
+.onsale h2{
+letter-spacing: 1px;
+font-size: 40px;
+font-weight: 600;
+line-height: 1.2;
+font-family: Teko;
+}
+
+.preciolistado{
+    margin-top: 15px;
+    color: var(--red-color-price);
+    font-weight: 600;
+}
+
+.valoracionlistado{
+    margin-bottom: 10px;
+}
+
+.valoracionlistado a{
+    display: inline-block;
+    color: var(--rating-color);
+}
+
+.valoracionlistado div{
+    margin-left: 5px;
+    display: inline-block;
+    font-weight: 200;
+    font-size: small;
+}
+
+.marco4{
+    height: 555px;
+    width: 410px;
+}
+
+.patrocinadores{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.patrocinadores h2{
+    display: none;
+}
+
+.patrocinadores h3{
+    display: none;
+}
+
+.patrocinadores ol{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.patrocinadores article{
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 50px;
+    width: 140px;
+    margin-top: 15px;
+}
+
+.recenpro{
+    display: flex;
+    align-items: flex-start;
+    padding: 11px 10px 12px;
+    border-bottom: solid 1px var(--grey-color-base);
+    background-color: var(--white-color-classic);
+}
+
+.recenpro h3{
+    display: none;
+}
+
+.imagenesrecepro{
+    height: 90px;
+    width: 80px;
+    margin-right: 10px;
+}
+
+.onsal{
+    display: flex;
+    align-items: flex-start;
+    padding: 11px 10px 12px;
+    border-bottom: solid 1px var(--grey-color-base);
+    background-color: var(--white-color-classic);
+}
+
+.onsal h3{
+    display: none;
+}
+
+.imagenesonsale{
+    height: 90px;
+    width: 80px;
+    margin-right: 10px;
+}
+
+
+.contactos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contactos div{
+    font-size: 13px;
+}
+
+.contactos h2{
+    font-size: 17px ;
+margin-bottom: 30px;
+color: var(--white-color-classic)
+}
+
+.contactus, .storelocation, .categoriaspie, .newsletter{
+    height: 290px;
+    width: 350px;
+    color: var(--grey-color-base);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.newsletter form{
+    background-color: var(--white-color-classic);
+}
+
+.supportmail a{
+    color: var(--white-color-classic);
+    text-decoration: underline;
+}
+
+.supportnum{
+    margin-top: 60px;
+}
+
+.horariomonday{
+    margin-top: 60px;
+    display: block;
+}
+
+.horariosaturday{
+    margin-top: 15px;
+    display: block;
+}
+
+.horas{
+    color: var(--white-color-classic);
+}
+
+.listacategories li{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.listacategories li a{
+    color: var(--grey-color-base);
+}
+
+.listacategories ul{
+    padding: 0;
+}
+
+.cajacategorias{
+    width: 200px;
+    border-right: solid 1px var(--grey-color-base);
+}
+
+.insertarcorreo{
+    position: relative;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border: solid 0.5px;
+    width: 258px;
+}
+
+.insertarcorreo input{
+border: none;
+border-radius: 10px;
+position: relative;
+background-color: var(--white-color-classic);
+}
+
+.subscribe-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--red-color-price);
+    color: var(--white-color-classic);
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+    width: 85px;
+
+    
+}
+
+.contactos2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 20px ;
+}
+
+.prefijo{
+  margin-right: 5px ;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.sufijo{
+font-size: 30px;
+font-weight: 700;
+}
+
+.copyright, .redessociales{
+    text-align: center;
+    width: 450px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: var(--grey-color-base);
+}
+
+.bancos{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.redessociales li{
+    margin-left: 5px; 
+    margin-right: 5px;
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 20px;
+    height: 20px;
+}
+
+.redessociales ul{
+    padding: 0;
+    margin: 0;
+}
+
+.metodospago{
+    padding-top: 40px;
+    border-top: var(--grey-color-base) 1px solid;
+}
+
+.metodospago h2{
+    display: none;
+}
+
+#progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px; 
+    background-color: black; 
+    z-index: 1000;
+  }
+
+  #progress-indicator {
+    height: 100%;
+    width: 0;
+    background-color: red; 
+  }
+
+  .content {
+    height: 1500px;
+    background-color: #f0f0f0; 
+  }
+
+@media (width <= 1270px) {
+    header{
+        background-size: 100% 100%;
+        height: 600px;
+    }
+
+    .titulocarrusel{
+        display: none;
+    }
+
+    .iconosdestacados{
+        padding: 20px;
+        display: flex;
+    }
+
+    .opciones ul{
+        display: ruby;
+        margin: auto;
+        padding: 0;
+    }
+
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .menuizquierda{
+        margin: auto;
+        border-right: none;
+    }
+
+    .productos {
+      margin: auto;
+      width: 600px;
+      grid-template: "producto1 producto2" 1fr "producto3 producto4" 1fr "producto5 producto6" 1fr "producto7 producto8" 1fr / 1fr 1fr;
+      gap: 25px 25px;
+      grid-auto-flow: row;
+    }
+
+
+    .categorias {
+        margin: auto;
+        max-width: 700px;
+        height: 100%;
+        position: relative;
+        display: grid; 
+        grid-template: "gym " 1fr "zapatillas" 1fr "lifestyle" 1fr "atletismo" 1fr / 1fr; 
+        gap: 10px 10px; 
+      }
+
+      .gym { 
+        background-image: url("imagenes/gym1.jpg");
+        background-size: 100% 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-area: gym;
+        height: 370px;
+        margin: 10px;
+        position: relative;
+    }
+
+      .zapatillas { 
+        background-image: url("imagenes/calzado.jpg");
+        background-size: 100% 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-area: zapatillas; 
+        height: 370px;
+        margin: 10px;
+        position: relative;
+    }
+
+      .atletismo { 
+        background-image: url("imagenes/atletismo.jpg");
+        background-size: 100% 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-area: atletismo; 
+        height: 370px;
+        margin: 10px;
+        position: relative;
+    }
+
+      .lifestyle { 
+        background-image: url("imagenes/goodlook.jpg");
+        background-size: 100% 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-area: lifestyle; 
+        height: 370px;
+        margin: 10px;
+        position: relative;
+    }
+   
+  }
+
+  @media (width <=800px){
+    .iconosdestacados{
+        display: none;
+    }
+  }
+
+
+  @media (width <= 700px) {
+    header{
+        height: 400px;
+    }
+
+    .titulocarrusel{
+        display: none;
+    }
+
+
+    .productos {  
+        width: 300px;
+        display: grid; 
+        grid-template: "zapatillas1" 1fr "zapatillas2" 1fr "zapatillas3" 1fr "zapatillas4" 1fr "zapatillas5" 1fr "zapatillas6" 1fr "zapatillas7" 1fr "zapatillas8" 1fr / 1fr;
+        gap: 25px 0;
+        grid-auto-flow: row;
+      }
+      
+      .zapatillas1 { grid-area: zapatillas1; }
+      
+      .zapatillas2 { grid-area: zapatillas2; }
+      
+      .zapatillas3 { grid-area: zapatillas3; }
+      
+      .zapatillas4 { grid-area: zapatillas4; }
+      
+      .zapatillas5 { grid-area: zapatillas5; }
+      
+      .zapatillas6 { grid-area: zapatillas6; }
+      
+      .zapatillas7 { grid-area: zapatillas7; }
+      
+      .zapatillas8 { grid-area: zapatillas8; }
+    }      
+
